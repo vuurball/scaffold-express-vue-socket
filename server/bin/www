@@ -24,8 +24,8 @@ var server = http.createServer(app);
 /**
  * Socket setup.
  */
-var socketConf = require('../socketConf');
-var io = socketConf.io;
+var socketService = require('../services/socket');
+var io = socketService.io;
 io.attach(server);
 
 /**

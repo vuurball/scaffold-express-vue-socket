@@ -4,7 +4,7 @@ Scaffolding new project with:
 
 - Express (express-generator + env)
 - Vuejs (+ Vuex + router + Bootstrap + .env)
-- Socket.io 
+- Socket.io
 
 Usage:
 
@@ -19,6 +19,6 @@ Usage:
 > npm run serve
 ```
 
-To use sockets, see example code in 
+To use sockets, see example code in
 
-`server/socketConf.js` and `client/src/components/HelloWorld.vue`
+`server/services/socket.js` and `client/src/components/HelloWorld.vue`
